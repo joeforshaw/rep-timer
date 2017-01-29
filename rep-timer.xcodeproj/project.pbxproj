@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87C8C2C1E3E3A2000FFF8B5 /* ExerciseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C8C2B1E3E3A2000FFF8B5 /* ExerciseItem.swift */; };
 		D888A06D1E3BF907009B18C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D888A06C1E3BF907009B18C7 /* AppDelegate.swift */; };
 		D888A06F1E3BF907009B18C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D888A06E1E3BF907009B18C7 /* ViewController.swift */; };
 		D888A0721E3BF907009B18C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D888A0701E3BF907009B18C7 /* Main.storyboard */; };
 		D888A0741E3BF907009B18C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D888A0731E3BF907009B18C7 /* Assets.xcassets */; };
 		D888A0771E3BF907009B18C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D888A0751E3BF907009B18C7 /* LaunchScreen.storyboard */; };
+		D8C603021E3E381800619708 /* ExerciseItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C603011E3E381800619708 /* ExerciseItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D87C8C2B1E3E3A2000FFF8B5 /* ExerciseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseItem.swift; path = "../../../../Joe/Projects/rep-timer/rep-timer/ExerciseItem.swift"; sourceTree = "<group>"; };
 		D888A0691E3BF907009B18C7 /* rep-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rep-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D888A06C1E3BF907009B18C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D888A06E1E3BF907009B18C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D888A0731E3BF907009B18C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D888A0761E3BF907009B18C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D888A0781E3BF907009B18C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C603011E3E381800619708 /* ExerciseItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseItemsTableViewController.swift; path = "../../../../Joe/Projects/rep-timer/rep-timer/ExerciseItemsTableViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		D888A06B1E3BF907009B18C7 /* rep-timer */ = {
 			isa = PBXGroup;
 			children = (
+				D8C603031E3E39F300619708 /* Models */,
+				D8C603011E3E381800619708 /* ExerciseItemsTableViewController.swift */,
 				D888A06C1E3BF907009B18C7 /* AppDelegate.swift */,
 				D888A06E1E3BF907009B18C7 /* ViewController.swift */,
 				D888A0701E3BF907009B18C7 /* Main.storyboard */,
@@ -62,6 +68,14 @@
 				D888A0781E3BF907009B18C7 /* Info.plist */,
 			);
 			path = "rep-timer";
+			sourceTree = "<group>";
+		};
+		D8C603031E3E39F300619708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D87C8C2B1E3E3A2000FFF8B5 /* ExerciseItem.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87C8C2C1E3E3A2000FFF8B5 /* ExerciseItem.swift in Sources */,
+				D8C603021E3E381800619708 /* ExerciseItemsTableViewController.swift in Sources */,
 				D888A06F1E3BF907009B18C7 /* ViewController.swift in Sources */,
 				D888A06D1E3BF907009B18C7 /* AppDelegate.swift in Sources */,
 			);
@@ -260,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rep-timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "joeforshaw.rep-timer";
+				PRODUCT_BUNDLE_IDENTIFIER = joeforshaw.reptronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rep-timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "joeforshaw.rep-timer";
+				PRODUCT_BUNDLE_IDENTIFIER = joeforshaw.reptronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +313,7 @@
 				D888A07D1E3BF907009B18C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
